@@ -1,0 +1,225 @@
+/*====================================================================
+                            Bootstrap 3 Media Queries
+=====================================================================*/
+
+/* Large Devices (Desktops * Laptops) */
+
+@media (min-width: 1200px) {
+
+    /* ok */
+}
+
+/* Medium Devices (Landscape Tablets * Medium Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+      
+    /* Mobile menu */
+    .navbar {
+        
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .page-nav-wrapper {
+        padding: 0;
+    }
+    
+}
+/* Small Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+      
+    /* Mobile menu */
+        .navbar {
+        
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .page-nav-wrapper {
+        padding: 0;
+    }
+    
+     #footer-copyrights {
+        text-align: center;
+    }
+    
+    /* About - remove diagonal border */
+    
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height:350px;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    
+  
+}
+
+/* Extra Small Devices (landscape Phones & Portrait Tablets) */
+@media (max-width: 767px) {
+
+    .navbar {
+        
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .page-nav-wrapper {
+        padding: 0;
+    }
+            
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    
+    #about-content-box {
+    width: 30%;
+}
+    
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+    
+    #footer-copyrights {
+        text-align: center;
+    }
+    
+    #about-bg-diagonal {
+        background-image: url(../img/photo-about-mini23.jpg);
+        border-left: 0;
+        border-top: 0;
+        padding: 0;
+        width: 100%;
+        height:350px;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    
+    
+}
+
+/* Extra Small Devices (Smaller devices) */
+@media (max-width: 480px) {
+       .navbar {
+        
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .page-nav-wrapper {
+        padding: 0;
+    }
+            
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    
+    #about-content-box {
+    width: 30%;
+}
+    
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+    
+    #footer-copyrights {
+        text-align: center;
+    }
+    
+    #about-bg-diagonal {
+        background-image: url(../img/photo-about-mini23.jpg);
+        border-left: 0;
+        border-top: 0;
+        padding: 0;
+        width: 100%;
+        height:350px;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }   
+    
+    .service-item-icon {
+    font-size: 8px;
+}
+    
+}
+
+/* Extra Small Devices (Smaller devices) */
+@media (max-width: 320px) {
+       .navbar {
+        
+        background: rgba(0,0,0, .7);
+        padding: 0;
+    }
+    
+    .navbar-nav {
+        float: left;
+    }
+    
+    .page-nav-wrapper {
+        padding: 0;
+    }
+            
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    
+    #about-content-box {
+    width: 30%;
+}
+    
+    .btn-general {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+    
+    #footer-copyrights {
+        text-align: center;
+    }
+    
+    #about-bg-diagonal {
+        background-image: url(../img/photo-about-mini23.jpg);
+        border-left: 0;
+        border-top: 0;
+        padding: 0;
+        width: 100%;
+        height:350px;
+    }
+    
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    
+    .service-item-icon {
+    font-size: 8px;
+}
+    
+}
